@@ -1,3 +1,13 @@
+/*
+Date: 20200923
+Basic idea: 
+1. Using set to store deadends and visited pattern.
+2. BFS, transform the shortest path problem. 
+3. Add root to the queue, and judge by deadends and target, if not, add child-node to the queue when it doesn't exist in visited set.
+4. traverse queue if not empty, increase the number of steps each time.
+
+*/
+
 class Solution {
 public:
 
