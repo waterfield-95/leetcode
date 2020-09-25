@@ -1,4 +1,4 @@
-/*
+/**
 Date: 200925
 Basic Idea: BFS
 1. Regarding given value n as root, minus all squares which is less than n;
