@@ -1,6 +1,6 @@
 /**
 Date: 200925
-Basic Idea: BFS
+Basic Idea: BFS, tree
 1. Regarding given value n as root, minus all squares which is less than n;
 2. After substration, if new value less than 0, back to queue; if new value equal to 0, return steps; if new value exists in visited set, continue to next new value.
 And then the rest of new values push into queue and visited set. Loop
