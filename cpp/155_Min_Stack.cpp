@@ -1,9 +1,11 @@
 /*
 Date: 200926
-Idea: two stack, store data and the minimum in the current stack, respectively.
+Idea: 
+1. two stack, store data and the minimum in the current stack, respectively.
+2. one stack stores pair structure <data, minimum>, and use *min* var to store current minimum
 */
 
-class MinStack {
+class MinStack_1 {
     stack<int> x_stack;
     stack<int> min_stack;
 public:
@@ -28,5 +30,32 @@ public:
     
     int getMin() {
         return min_stack.top();
+    }
+};
+
+/***************************************************************************************/
+
+class MinStack_2 {
+    int min = INT_MAX;
+    stack<pair<int, int>> min_stack;
+public:
+
+    void push(int x) {
+        if(x < min) min = x;
+        min_stack.push(make_pair(x, min));
+    }
+    
+    void pop() {
+        min_stack.pop();
+        if(min_stack.empty()) min = INT_MAX;
+        else min = min_stack.top().second;
+    }
+    
+    int top() {
+        return min_stack.top().first;
+    }
+    
+    int getMin() {
+        return min_stack.top().second;
     }
 };
