@@ -43,6 +43,23 @@ int BFS(Node* root, Node* target) {
 ## DFS(depth first search) 深度优先遍历
 It always use `queue` to achieve the function of traversal or search in tree and graph problem.
 
+```cpp
+/*
+DFS recursion template:
+Return true if there is a path from cur to target.
+*/
+bool DFS(Node* cur, Node* target, unordered_set<Node*> visited) {
+    return true if cur is target;
+    for (next : each neighbor of cur) {
+        if (next is not in visited) {
+            add next to visted;
+            return true if DFS(next, target, visited) == true;
+        }
+    }
+    return false;
+}
+```
+
 ## Example
 ### [200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) 
 
