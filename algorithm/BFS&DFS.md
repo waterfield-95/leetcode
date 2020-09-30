@@ -5,9 +5,9 @@ Goal:
 - traverse all elements
 - find the shortest path
 
-Cpp Template:
 ```cpp
 /*
+BFS Template:
 Return the length of the shortest path between root and target node.
 */
 
