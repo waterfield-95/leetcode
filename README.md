@@ -1,5 +1,5 @@
 # leetcode
-Cpp and Python Solution for Leetcode with Basic idea. 
+Cpp and Python Solution for Leetcode with Basic idea. And the specific method is described in the first solution.
 
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
