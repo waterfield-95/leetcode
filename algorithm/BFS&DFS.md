@@ -6,10 +6,10 @@ Goal:
 - find the shortest path
 
 ## DFS(depth first search) 深度优先遍历
-It always use `stack` to achieve the function of traversal or search in tree and graph problem.
+It always use `queue` to achieve the function of traversal or search in tree and graph problem.
 
 ## Example
-[200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) 
+### [200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) 
 
 [Both BFS and DFS Solution code and basic idea](https://github.com/Fieldwater/leetcode/blob/master/cpp/200_Number_of_Islands.cpp)
 
