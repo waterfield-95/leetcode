@@ -4,6 +4,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
 | [20. Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/20_Valid_Parentheses.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/20_Valid_Parentheses.py) | Easy | stack |
+| [133. Clone Graph](https://leetcode-cn.com/problems/clone-graph/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/133_Clone_Graph.cpp) | Medium | DFS, visited hashmap |
 | [150. Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/150_Evaluate_Reverse_Polish_Notation.py) | Medium | stack |
 | [155. Min Stack](https://leetcode-cn.com/problems/min-stack/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/155_Min_Stack.cpp) | Easy | 1. two stack to store data and minimum<br>2. pair<data, minimum>, and var *min* to store current minimum. |
 | [200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/200_Number_of_Islands.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/200_Number_of_Islands.py) | Medium | 1. DFS: search to the depth of one element<br>2. BFS: search all neighbors of one element |
