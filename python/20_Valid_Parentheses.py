@@ -4,18 +4,19 @@ idea: stack
 ’‘’
 
 class Solution:
-    def isValid(self, s: str) -> bool:
-        dic = {')': '(', ']':'[', '}': '{'}
-        st = [];
+    def isValid(self, givenString: str) -> bool:
+        params_dict = {')': '(', ']':'[', '}': '{'}
+        stack = [];
         
-        for c in s:
-            if(c not in dic):
-                st.append(c);
-            elif(st and dic[c] == st[-1]):
-                st.pop();
+        for character in givenString:
+            if(character not in params_dict):
+                stack.append(character);
+            elif((stack) and (params_dict[character] == stack[-1])):
+                stack.pop();
             else:
                 return False;
 
-        if(len(st) == 0):
+        if(len(stack) == 0):
             return True;
-        else: return False;
+        else: 
+            return False;
