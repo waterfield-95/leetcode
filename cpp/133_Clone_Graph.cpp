@@ -5,6 +5,11 @@ S1. DFS: recursion
 - create a hash-map<original node: cloned node> to store visited node
 - recursive boundary condition: if node has already been in visited map, return cloned node.
 - initialization: create new node. and recursion: each call returns the cloned copy of corresponding neighbor.
+
+S2. BFS: 
+- queue to store original node and traveres all neighbors to add them to queue
+- visited hash-map <original node: new node>
+- for each neighbor, we need to determine if it is visited. If not, we should add to queue and visited hash map. And then complete the cloned neighbors.
 */
 
 
@@ -52,5 +57,33 @@ public:
             cloneNode->neighbors.emplace_back(cloneGraph(neighbor));
         }
         return cloneNode;
+    }
+};
+
+
+class Solution2 {
+public:
+    Node* cloneGraph(Node* node) {
+        if(!node) return node;
+
+        unordered_map<Node*, Node*> visited;
+        queue<Node*> q;
+        q.push(node);
+        visited[node] = new Node(node->val);  
+
+        while(!q.empty()){
+            auto n = q.front();
+            q.pop();
+
+            for(auto& neighbor: n->neighbors){
+                // when the neighbor didn't visit, add to queue and visited map.
+                if(visited.find(neighbor) == visited.end()){
+                    q.push(neighbor);
+                    visited[neighbor] = new Node(neighbor->val);
+                }
+                visited[n]->neighbors.emplace_back(visited[neighbor]);
+            }
+        }
+        return visited[node];
     }
 };
