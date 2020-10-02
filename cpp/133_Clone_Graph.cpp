@@ -1,6 +1,12 @@
 /*
 date: 201001
-idea: DFS
+idea: deep copy: copy the structure and value.
+S1. DFS: recursion
+- create a hash-map<original node: cloned node> to store visited node
+- recursive boundary condition: if node has already been in visited map, return cloned node.
+- initialization: create new node. and recursion: each call returns the cloned copy of corresponding neighbor.
+*/
+
 
 // Definition for a Node.
 class Node {
@@ -23,22 +29,22 @@ public:
         neighbors = _neighbors;
     }
 };
-*/
 
 class Solution {
 public:
+    // create a hash-map to store visited node
     unordered_map<Node*, Node*> visited;
     Node* cloneGraph(Node* node) {
         if(node == nullptr){
             return node;
         }
 
-        // 如果node存在与visited中，直接返回对应的克隆节点
+        // avoid repeated operation
         if(visited.find(node) != visited.end()){
             return visited[node];
         }
 
-        // 新建克隆节点
+        // create clone node
         Node* cloneNode = new Node(node->val);
         visited[node] = cloneNode;
 
