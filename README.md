@@ -9,6 +9,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [155. Min Stack](https://leetcode-cn.com/problems/min-stack/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/155_Min_Stack.cpp) | Easy | 1. two stack to store data and minimum<br>2. pair<data, minimum>, and var *min* to store current minimum. |
 | [200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/200_Number_of_Islands.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/200_Number_of_Islands.py) | Medium | 1. DFS: search to the depth of one element<br>2. BFS: search all neighbors of one element |
 | [279. Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/279_Perfect_Squares.cpp) | Medium | BFS |
+| [494. Target Sum](https://leetcode-cn.com/problems/target-sum/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/494_Target_Sum.cpp) | Medium | 1. DFS: enumerate all possibility<br> |
 | [739. Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/739_Daily_Temperatures.py) | Medium | Monotonic stack |
 | [752. Open the Lock&hearts;](https://leetcode-cn.com/problems/open-the-lock) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/752_open_the_lock.cpp) | Medium | BFS: transform to graph to find the shortest path |
 
