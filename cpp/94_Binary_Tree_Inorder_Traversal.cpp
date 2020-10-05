@@ -1,6 +1,6 @@
 /*
 date: 201005
-idea: 
+idea: DFS
 1. recursion
 2. Explicit stack
 */
@@ -27,6 +27,28 @@ public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> res;
         inorder(root, res);
+        return res;
+    }
+};
+
+
+class Solution2 {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        stack<TreeNode*> s;
+        TreeNode* cur = root;
+        vector<int> res;
+        
+        while(cur != nullptr || !s.empty()){
+            while(cur!=nullptr){
+                s.push(cur);
+                cur = cur->left;
+            }
+            cur = s.top();
+            s.pop();
+            res.push_back(cur->val);
+            cur = cur->right;
+        } 
         return res;
     }
 };
