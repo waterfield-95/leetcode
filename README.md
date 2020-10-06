@@ -4,6 +4,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
 | [20. Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/20_Valid_Parentheses.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/20_Valid_Parentheses.py) | Easy | stack |
+| [24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/24_Swap_Nodes_in_Pairs.cpp) | Medium | recursion |
 | [94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/94_Binary_Tree_Inorder_Traversal.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/94_Binary_Tree_Inorder_Traversal.py) | Medium | 1. DFS recursion<br>2. explicit stack |
 | [133. Clone Graph](https://leetcode-cn.com/problems/clone-graph/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/133_Clone_Graph.cpp) | Medium | 1. DFS, visited hashmap<br>2. BFS: add all neighbors to queue and traverse |
 | [150. Evaluate Reverse Polish Notation](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/150_Evaluate_Reverse_Polish_Notation.py) | Medium | stack |
