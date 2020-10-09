@@ -16,3 +16,15 @@ class Solution:
 
             triangle.append(row_list)
         return triangle          
+
+    
+class Solution2:
+    triangle = []
+    def generate(self, numRows: int) -> List[List[int]]:
+        if numRows==0: return []
+        if numRows==1: return [[1]]
+
+        triangle = self.generate(numRows-1)
+        triangle.append([1] + [triangle[-1][i-1] + triangle[-1][i] for i in range(1, numRows-1)] + [1])
+
+        return triangle
