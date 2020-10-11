@@ -15,6 +15,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [279. Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/279_Perfect_Squares.cpp) | Medium | BFS |
 | [344. Reverse String](https://leetcode-cn.com/problems/reverse-string/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/344_Reverse_String.cpp) | Easy | iteration or recursion of swap in place |
 | [494. Target Sum](https://leetcode-cn.com/problems/target-sum/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/494_Target_Sum.cpp) | Medium | 1. DFS: enumerate all possibility<br> |
+| [509. Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/509_Fibonacci_Number.py) | Easy | recur |
 | [739. Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/739_Daily_Temperatures.py) | Medium | Monotonic stack |
 | [752. Open the Lock&hearts;](https://leetcode-cn.com/problems/open-the-lock) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/752_open_the_lock.cpp) | Medium | BFS: transform to graph to find the shortest path |
 
