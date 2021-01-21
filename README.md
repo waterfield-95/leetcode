@@ -1,11 +1,14 @@
 # leetcode
 Cpp and Python Solution for Leetcode with Basic idea. And the specific method is described in the first solution.
 
+
+
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
 | [1. Two Sum](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/1.%20Two%20Sum.py) | Easy | 1. two-pointer<br>2. hashtable to store <value: index>, traverse once |
 | [20. Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/20_Valid_Parentheses.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/20_Valid_Parentheses.py) | Easy | stack |
-| [24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/24_Swap_Nodes_in_Pairs.cpp) | Medium | recursion |
+| [88. Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/24_Swap_Nodes_in_Pairs.cpp) | Medium | recursion |
+| [24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/88.%20Merge%20Sorted%20Array.py) | Easy | two pointer, reverse insertion |
 | [94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/94_Binary_Tree_Inorder_Traversal.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/94_Binary_Tree_Inorder_Traversal.py) | Medium | 1. DFS recursion<br>2. explicit stack |
 | [118. Pascal's Triangle](https://leetcode-cn.com/problems/pascals-triangle/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/118_Pascal's_Triangle.py) | Easy | iter/recur |
 | [119. Pascal's Triangle II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/119_Pascal's_Triangle_II.py) | Easy | iter/recur |
