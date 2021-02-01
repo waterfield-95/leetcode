@@ -22,4 +22,5 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [509. Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/509_Fibonacci_Number.py) | Easy | recur+hashmap (memerization to reduce repeated calculation) |
 | [739. Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/739_Daily_Temperatures.py) | Medium | Monotonic stack |
 | [752. Open the Lock&hearts;](https://leetcode-cn.com/problems/open-the-lock) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/752_open_the_lock.cpp) | Medium | BFS: transform to graph to find the shortest path |
+| [888. Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/888.%20Fair%20Candy%20Swap.py) | Easy | hash table |
 
