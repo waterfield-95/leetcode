@@ -25,4 +25,4 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [739. Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/739_Daily_Temperatures.py) | Medium | Monotonic stack |
 | [752. Open the Lock&hearts;](https://leetcode-cn.com/problems/open-the-lock) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/752_open_the_lock.cpp) | Medium | BFS: transform to graph to find the shortest path |
 | [888. Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/888.%20Fair%20Candy%20Swap.py) | Easy | hash table |
-
+| [1423. Maximum Points You Can Obtain from Cards](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/1423.%20Maximum%20Points%20You%20Can%20Obtain%20from%20Cards.py) | Medium | slide window + reverse thinking |
