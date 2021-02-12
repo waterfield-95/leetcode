@@ -27,3 +27,17 @@ class Solution2:
         for j in range(i):
             r[j] = r[j] + r[j + 1]
     return r
+
+"""
+2011.2
+idea:
+1.calculate all elements with n rows
+"""
+class Solution3:
+    def getRow(self, rowIndex):
+        triangle = [1] * (rowIndex+1)
+        for i in range(rowIndex+1):
+            triangle[i] = [1] * (i+1)
+            for j in range(1, i):
+                triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j]
+        return triangle[-1]
