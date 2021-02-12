@@ -31,7 +31,8 @@ class Solution2:
 """
 2011.2
 idea:
-1.calculate all elements with n rows
+3.calculate all elements with n rows
+4. Rolling array: we use the last level numbers to calculate this layer number.
 """
 class Solution3:
     def getRow(self, rowIndex):
@@ -41,3 +42,14 @@ class Solution3:
             for j in range(1, i):
                 triangle[i][j] = triangle[i-1][j-1] + triangle[i-1][j]
         return triangle[-1]
+    
+class Solution4:
+    def getRow(self, rowIndex):
+        # The first loop: traverse every layer
+        for i in range(rowIndex+1):
+            triangle = [1] * (i+1)
+            # 2nd loop: in every layer, calculating every elements except the first and last one.
+            for j in range(1, i):
+                triangle[j] = pre[j-1] + pre[j]
+            pre = triangle
+        return triangle
