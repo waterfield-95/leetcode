@@ -19,7 +19,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [279. Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/279_Perfect_Squares.cpp) | Medium | BFS |
 | [344. Reverse String](https://leetcode-cn.com/problems/reverse-string/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/344_Reverse_String.cpp) | Easy | iteration or recursion of swap in place |
 | [424. Longest Repeating Character Replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/424.%20Longest%20Repeating%20Character%20Replacement.py) | Medium | slide window with two pointer<br> - char number counter with list<br> - r-l+1-window_maxn > k |
-| [485. Max Consecutive Ones](https://leetcode-cn.com/problems/max-consecutive-ones/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/485.%20Max%20Consecutive%20Ones.py) | Easy | traverse and find max_count: return max(max_count, count) |
+| [485. Max Consecutive Ones](https://leetcode-cn.com/problems/max-consecutive-ones/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/485.%20Max%20Consecutive%20Ones.py) | Easy | traverse and find max_count: return max(max_count, count)|
 | [494. Target Sum](https://leetcode-cn.com/problems/target-sum/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/494_Target_Sum.cpp) | Medium | 1. DFS: enumerate all possibility<br> |
 | [509. Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/509_Fibonacci_Number.py) | Easy | recur+hashmap (memerization to reduce repeated calculation) |
 | [561. Array Partition I](https://leetcode-cn.com/problems/array-partition-i/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/561.%20Array%20Partition%20I.py) | Easy | sort and combine |
@@ -31,6 +31,6 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [752. Open the Lock&hearts;](https://leetcode-cn.com/problems/open-the-lock) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/752_open_the_lock.cpp) | Medium | BFS: transform to graph to find the shortest path |
 | [888. Fair Candy Swap](https://leetcode-cn.com/problems/fair-candy-swap/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/888.%20Fair%20Candy%20Swap.py) | Easy | hash table |
 | [978. Longest Turbulent Subarray](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/978.%20Longest%20Turbulent%20Subarray.py) | Medium | 1. slide window <br> 2. Dynamic Programming |
+| [1052. Grumpy Bookstore Owner](https://leetcode-cn.com/problems/grumpy-bookstore-owner/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/1052.%20Grumpy%20Bookstore%20Owner.py) | Medium | 1. slide window 生气的老板<br> |
 | [1423. Maximum Points You Can Obtain from Cards](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/1423.%20Maximum%20Points%20You%20Can%20Obtain%20from%20Cards.py) | Medium | slide window + reverse thinking |
-
 
