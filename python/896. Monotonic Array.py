@@ -20,3 +20,22 @@ class Solution2:
             if A[i] < A[i-1]:
                 inc = False
         return des or inc
+
+# self programming at first time
+class Solution3:
+    def isMonotonic(self, A: List[int]) -> bool:
+        flag = 0
+        for i in range(1, len(A)):
+            # 递减
+            if A[i] < A[i-1]:
+                if flag == 0:
+                    flag = -1
+                elif flag == 1:
+                    return False
+            # 递增
+            elif A[i] > A[i-1]:
+                if flag == 0:
+                    flag = 1
+                elif flag == -1:
+                    return False
+        return True
