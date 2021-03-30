@@ -2,7 +2,12 @@
 2021.3
 idea:
 1. assistant stack
+- digit as times_number, store times and existed_string into stack when it comes to '['; 
+- ']' means pop current times and existed string from stack and then calculate current string;
+- When it comes to 'char', update current string by appending char
+
 2. DFS
+- recursive: base case
 """
 
 class Solution:
