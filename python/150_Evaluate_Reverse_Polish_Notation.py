@@ -2,7 +2,7 @@
 date: 200927
 
 What's Reverse Polish Notation?
-- the operator follows their operands: 先写数字，后面跟着操作符号
+- Postfix expression: the operator follows their operands: 先写数字，后面跟着操作符号
 - Advantage: removes the need for parentheses 
 
 idea: stack to store number
