@@ -22,6 +22,7 @@ class Solution:
     def search2(self, nums: List[int], target: int) -> int:
         def binary_search(nums, target, left, right):
             if left <= right:
+                # 加减优先级高于移位运算，所以加括号
                 mid = left + ((right - left) >> 1)
                 if nums[mid] == target:
                     return mid
