@@ -3,6 +3,10 @@
 idea: 
 1. in-order traverse to get sorted list
   - find minimum from the list of difference between neighbor elements from the sorted list
+  
+What's the BST(binary search tree)?
+  - middle node is larger than left child and smaller than the right child
+  - in-order traverse would get sorted element
 """
 
 # Definition for a binary tree node.
