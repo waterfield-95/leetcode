@@ -2,7 +2,11 @@
 2021.4
 idea:
 1. recursive with cache
-2. DP
+    - boundary: res[0]=1, res[x<0]=0
+    - recursive: res[x] = sum([res[x-num] for num in nums:])
+2. DP (from top to bottom)
+    - set dp list
+    - dp states equation: dp[x] += dp[x-num] for num in nums
 """
 
 from typing import List
