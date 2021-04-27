@@ -1,8 +1,6 @@
 # leetcode
 Cpp and Python Solution for Leetcode with Basic idea. And the specific method is described in the first solution.
 
-
-
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
 | [1. Two Sum](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/1.%20Two%20Sum.py) | Easy | 1. two-pointer<br>2. hashtable to store <value: index>, traverse once |
