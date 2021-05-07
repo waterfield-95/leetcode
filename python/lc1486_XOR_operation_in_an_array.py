@@ -1,6 +1,7 @@
 """
 2021.5
 idea: brute force
+    - x ^ 0 = x
 """
 
 class Solution:
