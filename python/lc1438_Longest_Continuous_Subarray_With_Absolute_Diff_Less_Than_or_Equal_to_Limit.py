@@ -6,6 +6,7 @@ idea: slide window + sorted list achieved by BTree
 
 
 from sortedcontainers import SortedList
+from typing import List
 
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
