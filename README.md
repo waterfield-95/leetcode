@@ -4,7 +4,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
 | [1. Two Sum](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1_Two_Sum.py) | Easy | 1. two-pointer<br>2. hashtable |
-| [7. Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc7_reverse_integer.py) | Easy | 1. mod and floor divide in Python3 |
+| [7. Reverse Integer:star:](https://leetcode-cn.com/problems/reverse-integer/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc7_reverse_integer.py) | Easy | 1. mod and floor divide in Python3 |
 | [20. Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/20_Valid_Parentheses.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc20_Valid_Parentheses.py) | Easy | stack |
 | [24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/24_Swap_Nodes_in_Pairs.cpp) | Medium | recursion |
 | [26. Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc26_Remove_Duplicates_from_Sorted_Array.py) | Easy | double pointer |
