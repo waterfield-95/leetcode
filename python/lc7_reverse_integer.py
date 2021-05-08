@@ -14,7 +14,7 @@ class Solution:
         INT_MIN, INT_MAX = -2**31, 2**31-1
         rev = 0
         while x != 0:
-            # python3 向下取整，rev<-214748364
+            # python3 向下取整，rev<-214748364, 由于x是INT32bit，所以不需要判断第一位（默认1/2）
             if rev < INT_MIN//10 + 1 or rev > INT_MAX//10:
                 return 0
             digit = x % 10
@@ -32,10 +32,18 @@ class Solution:
         rev = 0
         while x != 0:
             digit = x % 10
-            rev = rev * 10 + digit
-            x //= 10
-        
+            if x < 0 and digit > 0:
+                digit -= 10
+            
+            if rev > INT_MAX//10 or (rev==INT_MAX//10 and digit>INT_MAX%10):
+                return 0
+            if rev<INT_MIN//10+1 or (rev==INT_MIN//10+1 and digit<INT_MIN%10-10):
+                return 0
 
+            rev = rev * 10 + digit
+            x = (x-digit) // 10
+        return rev
+        
     def reverse_imperfect(self, x: int) -> int:
         n = len(x)
         ans = 0
@@ -64,8 +72,8 @@ if __name__ == '__main__':
     x2 = -123
     x3 = 120
     x4 = 1534236469
-    S = Solution()
-    print(S.reverse(x1))
-    print(S.reverse(x2))
-    print(S.reverse(x3))
-    print(S.reverse(x4))
+    S = Solution().reverse1
+    print(S(x1))
+    print(S(x2))
+    print(S(x3))
+    print(S(x4))
