@@ -4,6 +4,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | Title | Solution | Difficulty | Basic idea |
 | ----- | -------- | :--------: | ---------- |
 | [1. Two Sum](https://leetcode-cn.com/problems/two-sum/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1_Two_Sum.py) | Easy | 1. two-pointer<br>2. hashtable |
+| [7. Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc7_reverse_integer.py) | Easy | 1. mod and floor divide in Python3 |
 | [20. Valid Parentheses](https://leetcode-cn.com/problems/valid-parentheses/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/20_Valid_Parentheses.cpp) [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc20_Valid_Parentheses.py) | Easy | stack |
 | [24. Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/24_Swap_Nodes_in_Pairs.cpp) | Medium | recursion |
 | [26. Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc26_Remove_Duplicates_from_Sorted_Array.py) | Easy | double pointer |
@@ -37,7 +38,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [264. Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc263_264_ugly_number.py) | Medium | minimum heap |
 | [279. Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/279_Perfect_Squares.cpp) | Medium | BFS |
 | [300. Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc300[DP]_longest_increasing_subsequence.py) | Medium | DP |
-| [344. Reverse String](https://leetcode-cn.com/problems/reverse-string/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/344_Reverse_String.cpp) | Easy | iteration or recursion of swap in place |
+| [344. Reverse String](https://leetcode-cn.com/problems/reverse-string/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/344_Reverse_String.cpp) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc344_reverse_string.py)  | Easy | 1. double pointer<br>2. iteration or recursion of swap in place |
 | [377. Combination Sum IV](https://leetcode-cn.com/problems/combination-sum-iv/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc377[DP]_Combination_Sum_IV.py) | Medium | 1. recursive with cache<br>2. DP |
 | [394. Decode String](https://leetcode-cn.com/problems/decode-string/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc394_Decode_String.py) | Medium | 1. assistant stack<br>2. DFS |
 | [395. Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc395_Longest_Substring_with_At_Least_K_Repeating_Characters.py) | Medium | DC |
