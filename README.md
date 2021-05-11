@@ -77,4 +77,4 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [1482. Minimum Number of Days to Make m Bouquets](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1482_minimum_number_of_days_to_make_m_bouquets.py) | Medium | binary search with checkDay func |
 | [1486. XOR Operation in an Array](https://leetcode-cn.com/problems/xor-operation-in-an-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1486_XOR_operation_in_an_array.py) | Easy | XOR |
 | [1720. Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1720_decode_XORed_array.py) | Easy | XOR |
-
+| [1734. Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1734_decode_XORed_permutation.py) | Medium | XOR |
