@@ -5,6 +5,8 @@ idea: hashtable {num: [counts, left, right]}
 - Notice the situation that there are same maximum counts condition
 """
 
+from typing import List
+
 
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
