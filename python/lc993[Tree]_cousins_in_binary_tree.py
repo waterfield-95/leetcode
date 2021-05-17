@@ -1,3 +1,9 @@
+"""
+2021.5
+idea: BFS, DFS
+    - we need to consider extra nonlocal variables: parent, depth and found
+"""
+
 from utils.binary_tree import BinarySearchTreeFromList
 
 class BST:
