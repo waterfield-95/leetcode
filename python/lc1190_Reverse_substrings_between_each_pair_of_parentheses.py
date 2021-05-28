@@ -5,7 +5,7 @@ idea:
 """
 
 class Solution:
-    def reverseParentheses(self, s: str) -> str:
+    def reverseParentheses_stack(self, s: str) -> str:
         stack = []
         str_ = ''
         for char in s:
@@ -35,7 +35,7 @@ class Solution:
                     
 
 if __name__ == '__main__':
-    s = '(u(love)i)'
+    s = 'a(u(love)i)b'
     S = Solution()
-    # print(S.reverseParentheses(s))
+    print(S.reverseParentheses_stack(s))
     print(S.reverseParentheses_recursion(s))
