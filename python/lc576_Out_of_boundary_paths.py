@@ -109,5 +109,5 @@ if __name__ == '__main__':
     m, n = 2, 2
     maxMove = 2
     startRow, startColumn = 0, 0
-    S = Solution()
+    S = Solution_1()
     print(S.findPaths(m, n, maxMove, startRow, startColumn))
