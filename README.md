@@ -102,15 +102,15 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 
 
 ## Depth-first Search
-[94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-[133. Clone Graph](https://leetcode-cn.com/problems/clone-graph/)
-[200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/)
-[394. Decode String](https://leetcode-cn.com/problems/decode-string/)
-[494. Target Sum](https://leetcode-cn.com/problems/target-sum/)
-[576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)
-[872. Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees/)
-[938. Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)
-[993. Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/)
+[94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)<br>
+[133. Clone Graph](https://leetcode-cn.com/problems/clone-graph/)<br>
+[200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/)<br>
+[394. Decode String](https://leetcode-cn.com/problems/decode-string/)<br>
+[494. Target Sum](https://leetcode-cn.com/problems/target-sum/)<br>
+[576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)<br>
+[872. Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees/)<br>
+[938. Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)<br>
+[993. Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/)<br>
 
 ## Dynamic Programming
-[576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)
+[576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)<br>
