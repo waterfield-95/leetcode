@@ -57,6 +57,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [509. Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc509_Fibonacci_Number.py) | Easy | recur+hashmap (memerization to reduce repeated calculation) |
 | [561. Array Partition I](https://leetcode-cn.com/problems/array-partition-i/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc561_Array_Partition_I.py) | Easy | sort and combine |
 | [567. Permutation in String](https://leetcode-cn.com/problems/permutation-in-string/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc567_Permutation_in_String.py) | Medium | slide window |
+| [576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc576_Out_of_boundary_paths.py) | Medium | 1. DFS with memorization <br>2. DP |
 | [633. Sum of Square Numbers](https://leetcode-cn.com/problems/sum-of-square-numbers/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc633_Sum_of_Square_Numbers.py) | Medium | 1. enumeration <br>2. double pointer |
 | [643. Maximum Average Subarray I](https://leetcode-cn.com/problems/maximum-average-subarray-i/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc643_Maximum_Average_Subarray_I.py) | Easy | slide window, start pointer is outside of initial window |
 | [665. Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc665_Non-decreasing_Array.py) | Easy | tranverse to find valley and judge index of i-1, i, i+1 |
@@ -93,3 +94,23 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [1720. Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1720_decode_XORed_array.py) | Easy | XOR |
 | [1734. Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1734_decode_XORed_permutation.py) | Medium | XOR |
 | [1738. Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1738_find_Kth_largest_XOR_coordinate_value.py) | Medium | Prefix sum and sort |
+
+
+---
+# Popular Tags
+## Breath-first Search
+
+
+## Depth-first Search
+[94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+[133. Clone Graph](https://leetcode-cn.com/problems/clone-graph/)
+[200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/)
+[394. Decode String](https://leetcode-cn.com/problems/decode-string/)
+[494. Target Sum](https://leetcode-cn.com/problems/target-sum/)
+[576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)
+[872. Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees/)
+[938. Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/)
+[993. Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/)
+
+## Dynamic Programming
+[576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)
