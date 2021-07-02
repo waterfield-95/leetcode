@@ -96,6 +96,9 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [1720. Decode XORed Array](https://leetcode-cn.com/problems/decode-xored-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1720_decode_XORed_array.py) | Easy | XOR |
 | [1734. Decode XORed Permutation](https://leetcode-cn.com/problems/decode-xored-permutation/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1734_decode_XORed_permutation.py) | Medium | XOR |
 | [1738. Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1738_find_Kth_largest_XOR_coordinate_value.py) | Medium | Prefix sum and sort |
+| [1833. Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1833_Maximum_ice_cream_bars.py) | Medium | sort+greedy |
+| ----- | -------- | :--------: | ---------- |
+| [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcp07_send_message.py) | Easy | DFS |
 
 
 ---
