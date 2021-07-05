@@ -4,6 +4,8 @@ idea: given grid with '1' island and '0' water, return the number of island
 1. DFS: traverse each cell and set the visited as water '0'
     - count traversal times
     - DFS just for traverse all cells
+    - Time complexity: O(MN), double layer traverse
+    - Space complexity: O(MN) -> the maximum recusive depth
 """
 
 from typing import List
