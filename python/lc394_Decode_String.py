@@ -46,3 +46,58 @@ class Solution1:
                 i += 1
             return res
         return dfs(s, 0)
+
+
+# 2021.7 stack
+class Solution_stack:
+    def parse_num(self):
+        num = 0
+        while self.i < self.n and self.s[self.i].isdigit() == True:
+            num = 10 * num + int(self.s[self.i])
+            self.i += 1
+        return num
+            
+    def parse_string(self):
+        string = ''
+        while self.i < self.n and self.s[self.i].isalpha() == True:
+            string += self.s[self.i]
+            self.i += 1
+        return string
+
+    def decodeString(self, s: str) -> str:
+        self.i = 0
+        self.s = s
+        self.n = len(self.s)
+        
+        stk = []
+        while self.i < self.n:
+            if s[self.i].isdigit() == True:
+                num = self.parse_num()
+                stk.append(num)
+
+            elif s[self.i].isalpha() == True:
+                string = self.parse_string()
+                stk.append(string)
+
+            elif s[self.i] == '[':
+                stk.append('[')
+                self.i += 1
+            
+            elif s[self.i] == ']':
+                #Fixme: cur_string need to be concatenated
+                cur_string = stk.pop()
+                if stk.pop() == '[':
+                    print('Right')
+                else:
+                    print('Something Wrong!')
+                cur_num = stk.pop()
+                new_string = cur_string * cur_num
+                stk.append(new_string)
+        return stk[-1]
+            
+
+
+if __name__ == '__main__':
+    s = '3[a2[c]]'
+    S = Solution_stack()
+    print(S.decodeString(s))
