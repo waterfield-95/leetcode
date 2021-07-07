@@ -71,35 +71,33 @@ class Solution_recursion:
             self.i += 1
         return string
 
-    def get_string(self):
-        if self.i == self.n or self.s[self.i] == ']':
-            return ''
-
-        char_ = self.s[self.i]
-        repeat_times = 0
-        res = ''
-
-        if char_.isdigit():
-            repeat_times = self.parse_num()
-
-            string_ = self.get_string()
-            self.i += 1
-
-            res += string_ * repeat_times
-        
-        elif char_.isalpha():
-            res += char_
-            self.i += 1
-        
-        return res + self.get_string()
-        
+    def dfs(self):
+        string_, multiple = '', 0
+        while self.i < self.n:
+            char_ = self.s[self.i]
+            if char_.isdigit():
+                multiple = self.parse_num()
+            
+            elif char_.isalpha():
+                string_ += self.parse_string()
+            
+            elif char_ == '[':
+                self.i += 1
+                tmp_string = self.dfs()
+                string_ += multiple * tmp_string
+                multiple = 0
+            
+            elif char_ == ']':
+                self.i += 1
+                return string_
+        return string_
 
     def decodeString(self, s: str) -> str:
         self.i = 0
         self.s = s
         self.n = len(self.s)
 
-        return self.get_string()
+        return self.dfs()
 
 
 class Solution:
@@ -168,6 +166,6 @@ class Solution1:
 
 
 if __name__ == '__main__':
-    s = "3[a]2[bc]"
+    s = "2[abc]3[cd]ef"
     S = Solution_recursion()
     print(S.decodeString(s))
