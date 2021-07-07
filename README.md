@@ -117,7 +117,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 [94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)<br>
 [133. Clone Graph](https://leetcode-cn.com/problems/clone-graph/)<br>
 [200. Number of Islands](https://leetcode-cn.com/problems/number-of-islands/)<br>
-[394. Decode String](https://leetcode-cn.com/problems/decode-string/)<br>
+:star:[394. Decode String](https://leetcode-cn.com/problems/decode-string/)<br>
 [494. Target Sum](https://leetcode-cn.com/problems/target-sum/)<br>
 [576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)<br>
 [872. Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees/)<br>
