@@ -125,4 +125,5 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 [993. Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/)<br>
 
 ## Dynamic Programming
+[494. Target Sum](https://leetcode-cn.com/problems/target-sum/)<br>
 [576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)<br>
