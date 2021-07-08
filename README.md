@@ -81,6 +81,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [896. Monotonic Array](https://leetcode-cn.com/problems/monotonic-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc896_Monotonic_Array.py) | Easy | set inc and des flags |
 | [897. Increasing Order Search Tree](https://leetcode-cn.com/problems/increasing-order-search-tree/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc897[Tree]_Increasing_Order_Search_Tree.py) | Easy | in_order traversal |
 | [912. Sort an Array](https://leetcode-cn.com/problems/sort-an-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc912_sort_an_array.py) | Medium | 1. quick sort |
+| [930. Binary Subarrays With Sum](https://leetcode-cn.com/problems/binary-subarrays-with-sum/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc930_Binary_subarrays_with_sum.py) | Medium | 1. Prefix sum<br>2. slide window |
 | [938. Range Sum of BST](https://leetcode-cn.com/problems/range-sum-of-bst/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc938[Tree_DFS]_Range_Sum_of_BST.py) | Easy | BFS, DFS |
 | [978. Longest Turbulent Subarray](https://leetcode-cn.com/problems/longest-turbulent-subarray/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc978_Longest_Turbulent_Subarray.py) | Medium | 1. slide window <br> 2. Dynamic Programming |
 | [993. Cousins in Binary Tree](https://leetcode-cn.com/problems/cousins-in-binary-tree/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc993[Tree]_cousins_in_binary_tree.py) | Easy | BFS, DFS (nonlocal) |
@@ -127,3 +128,6 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 ## Dynamic Programming
 [494. Target Sum](https://leetcode-cn.com/problems/target-sum/)<br>
 [576. Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths/)<br>
+
+## Slide Window
+[930. Binary Subarrays With Sum](https://leetcode-cn.com/problems/binary-subarrays-with-sum/)<br>
