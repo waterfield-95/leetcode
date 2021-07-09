@@ -105,6 +105,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [1833. Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1833_Maximum_ice_cream_bars.py) | Medium | sort+greedy |
 | ----- | -------- | :--------: | ---------- |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcp07_send_message.py) | Easy | DFS |
+| [面试题 17.10. Find Majority Element LCCI](https://leetcode-cn.com/problems/find-majority-element-lcci/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcci_17_10_Find_majority_element.py) | Easy | Boyer-Moore vote algo to find mode |
 
 
 ---
