@@ -42,6 +42,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [263. Ugly Number](https://leetcode-cn.com/problems/ugly-number/) | [Python](https://github.com/Fieldwater/leetcode/tree/master/python/lc263_264_ugly_number.py) | Easy | factorization through 2,3,5 |
 | [264. Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc263_264_ugly_number.py) | Medium | minimum heap |
 | [274. H-Index](https://leetcode-cn.com/problems/h-index/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc274_H_Index.py) | Medium | 1. Dichotomy<br>2. Counter array |
+| [275. H-Index II](https://leetcode-cn.com/problems/h-index-ii/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc275_H_Index_II.py) | Medium | 1. Dichotomy<br>2. traverse |
 | [279. Perfect Squares](https://leetcode-cn.com/problems/perfect-squares/) | [Cpp](https://github.com/Fieldwater/leetcode/blob/master/cpp/279_Perfect_Squares.cpp) | Medium | BFS |
 | [300. Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc300[DP]_longest_increasing_subsequence.py) | Medium | DP |
 | [307. Range Sum Query - Mutable](https://leetcode-cn.com/problems/range-sum-query-mutable/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc307[SegTree]_range_sum_query_mutable.py) | Medium | Segment Tree |
