@@ -1,6 +1,7 @@
 """
 2021.7
-idea: 
+idea: Given an integer array and target, by adding one of symbols +/- before number
+to get target, return the total of possibility
 """
 
 from memoization import cached

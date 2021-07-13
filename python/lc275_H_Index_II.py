@@ -26,11 +26,16 @@ class Dichotomy:
         l, r = 0, n-1
         while l <= r:
             mid = l + r >> 1
+            # mid and left part are satisfied
             if reverse_citations[mid] >= mid + 1:
                 l = mid + 1
             else:
                 r = mid - 1
-        return l
+        # l=r+1
+        # current l is boundary which is not satisfied with condition
+        # because it represents the index, so the number of the first l index is l+1
+        # so the boundary which is satisfied with the condition is l+1-1=l
+        return l    
 
 
 class Dichotomy2:
@@ -39,13 +44,17 @@ class Dichotomy2:
         - citations[i] >= h, we need count into the right elements of x
         - discard the left elements
     
-    Dichotomy:
+    Dichotomy: boundary condition
+        - To ensure the minimum citations (mid) are larger than the number of papers (n-mid)
+        which means, the right part of mid are all satisfied
+        - r is not necessarily satisfied, while l must be satifsfied, so return n-l
     """
     def hIndex(self, citations: List[int]) -> int:
         n = len(citations)
         l, r = 0, n-1
         while l <= r:
             mid = l + (r - l) // 2
+            # condition boundary -> mid and the right part are satisfied with condition
             if citations[mid] >= n - mid:
                 r = mid - 1
             else:
@@ -55,5 +64,5 @@ class Dichotomy2:
 
 if __name__ == '__main__':
     citations = [0,1,3,5,6]
-    S = Dichotomy()
+    S = Dichotomy2()
     print(S.hIndex(citations))
