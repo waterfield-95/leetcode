@@ -1,6 +1,6 @@
 """
 2021.7
-idea
+idea: Given sorted citations array to compute h-Index
 """
 
 from typing import List
