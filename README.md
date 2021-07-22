@@ -12,7 +12,8 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [26. Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc26_Remove_Duplicates_from_Sorted_Array.py) | Easy | double pointer |
 | [27. Remove Element](https://leetcode-cn.com/problems/remove-element/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc27_Remove_Element.py) | Easy | double pointer |
 | [28. Implement strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc28_implement_strStr.py) | Easy | double pointer |
-| [33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc33_Search_in_Rotated_Sorted_Array.py) | Medium | binary search |
+| [33. Search in Rotated Sorted Array](https://leetcode-cn.com/problems/maximum-subarray/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc33_Search_in_Rotated_Sorted_Array.py) | Medium | binary search |
+| [53. Maximum Subarray](httphttps://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc53_Maximum_subarray.py) | Easy | DP |
 | [70. Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc70_Climbing_Stairs.py) | Easy | DP, recursive |
 | [80. Remove Duplicates from Sorted Array II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc80_Remove_Duplicates_from_Sorted_Array_II.py) | Medium | two pointer |
 | [81. Search in Rotated Sorted Array II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc81_Search_in_rotated_sorted_array_II.py) | Medium | binary search |
@@ -111,7 +112,6 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | ----- | -------- | :--------: | ---------- |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcp07_send_message.py) | Easy | DFS |
 | [面试题 17.10. Find Majority Element LCCI](https://leetcode-cn.com/problems/find-majority-element-lcci/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcci_17_10_Find_majority_element.py) | Easy | Boyer-Moore vote algo to find mode |
-| [剑指 Offer 42. 连续子数组的最大和  LCOF (same as LC53)](httphttps://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcof42_max_sum_of_continuous_subarray.py) | Easy | DP |
 
 
 
