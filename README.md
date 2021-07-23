@@ -109,6 +109,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 | [1738. Find Kth Largest XOR Coordinate Value](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1738_find_Kth_largest_XOR_coordinate_value.py) | Medium | Prefix sum and sort |
 | [1818. Minimum Absolute Sum Difference](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1818_Minimum_absolute_sum_difference.py) | Medium | bisect |
 | [1833. Maximum Ice Cream Bars](https://leetcode-cn.com/problems/maximum-ice-cream-bars/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1833_Maximum_ice_cream_bars.py) | Medium | sort+greedy |
+| [1893. Check if All the Integers in a Range Are Covered](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lc1893_Check_if_all_the_integer_in_a_range_are_covered.py) | Easy | diff array + prefix sum |
 | ----- | -------- | :--------: | ---------- |
 | [LCP 07. 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcp07_send_message.py) | Easy | DFS |
 | [面试题 17.10. Find Majority Element LCCI](https://leetcode-cn.com/problems/find-majority-element-lcci/) | [Python](https://github.com/Fieldwater/leetcode/blob/master/python/lcci_17_10_Find_majority_element.py) | Easy | Boyer-Moore vote algo to find mode |
@@ -141,4 +142,7 @@ Cpp and Python Solution for Leetcode with Basic idea. And the specific method is
 [930. Binary Subarrays With Sum](https://leetcode-cn.com/problems/binary-subarrays-with-sum/)<br>
 
 ## Linked List
-[138. Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) 
+[138. Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) <br>
+
+## Prefix sum
+[1893. Check if All the Integers in a Range Are Covered](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/) <br>
