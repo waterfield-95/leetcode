@@ -45,6 +45,6 @@ class BinarySearchTreeFromList:
 if __name__ == '__main__':
     # 列表是先序遍历结果，即根节点->left->right
     nums = [5,3,6,2,4,None,8,1,None,None,None,7,9]
-    binary_tree = BinarySearchTreeFromList(nums)
-    root = binary_tree.create_tree()
+    BST = BinarySearchTreeFromList(nums)
+    root = BST.create_tree()
     print(root.val)
