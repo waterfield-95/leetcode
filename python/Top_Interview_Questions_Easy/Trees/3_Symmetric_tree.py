@@ -9,7 +9,7 @@ class TreeNode:
         self.right = right
 class SelfSolution:
     """
-    Time: 
+    Time: O(n)
     """
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         queue = deque([root])
@@ -37,6 +37,43 @@ class SelfSolution:
                     queue.append(None)
                 queue.append(node.right) if node.right else queue.append(None)
         return True
+
+
+class Recursive:
+    """
+    TC: O(n)
+    SC: O(n) recursive depth is less than n
+    """
+    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        return self.isMirror(root.left, root.right)
+    
+    def isMirror(self, left, right):
+        if not left and not right:
+            return True
+        if not left or not right:
+            return False
+        
+        if left.val != right.val:
+            return False
+        else:
+            return self.isMirror(left.left, right.right) and self.isMirror(left.right, right.left)
+
+class RecursiveByStack:
+    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        stack = [(root.left, root.right)]
+        while stack:
+            left, right = stack.pop()
+            if not left and not right:
+                continue
+            if not left or not right:
+                return False
+            if left.val != right.val:
+                return False
+            else:
+                stack.append((left.left, right.right))
+                stack.append((left.right, right.left))
+        return True
+
             
 if __name__ == '__main__':
     from utils.binary_tree import BinarySearchTreeFromList
