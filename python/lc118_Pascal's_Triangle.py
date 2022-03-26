@@ -1,22 +1,20 @@
+from typing import List
+
 '''
 date: 201009
-idea: iteration
+idea: DP
 '''
 
-class Solution:
+class Optimal:
     def generate(self, numRows: int) -> List[List[int]]:
-        triangle = []
-        for row in range(numRows):
-            row_list = [None for _ in range(row+1)]
-            row_list[0], row_list[-1] = 1, 1
-
-            if len(row_list)>2:
-                for col in range(1, len(row_list)-1):
-                    row_list[col] = triangle[row-1][col-1] + triangle[row-1][col]
-
-            triangle.append(row_list)
-        return triangle          
-
+        ans = [[1]]
+        for row_num in range(1, numRows):
+            row = [None for _ in range(row_num+1)]
+            row[0], row[-1] = 1, 1
+            for i in range(1, row_num):
+                row[i] = ans[-1][i-1] + ans[-1][i]
+            ans.append(row)
+        return ans
     
 class Solution2:
     triangle = []

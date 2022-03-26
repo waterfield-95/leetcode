@@ -4,20 +4,25 @@ idea:
 1. two pointer with left and right, while left is less and equal to right, calculate mid of them and judge whether or not it is target number
 2. recursive, binary_search, remember to update left and right pointer with increment or decrement
 """
+from typing import List
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-      low, high = 0, len(nums)-1
-      while low <= high:
-          # high - low 不用加法防止溢出
-          mid = low + (high - low) // 2
-          if nums[mid] == target:
-              return mid
-          elif nums[mid] > target:
-              high = mid-1
-          else:
-              low = mid+1
-      return -1
+        
+        n = len(nums)
+        left, right = 0, n-1
+        while left <= right:
+            mid = left + (right-left)//2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return -1
+                
+    # Time: O(logN)
+    # Space: O(1)
     
     def search2(self, nums: List[int], target: int) -> int:
         def binary_search(nums, target, left, right):

@@ -6,16 +6,18 @@ idea:
 """
 
 class Solution:
-    def hammingDistance_self(self, x: int, y: int) -> int:
-        def convert2bin32(x):
-            return ''.join(['0' if c==' ' else c for c in '{:32b}'.format(x)])
-        x_bin = convert2bin32(x)
-        y_bin = convert2bin32(y)
-        c = 0
+    """
+    would mask out the rest of the bits other than the rightmost bit
+    """
+    def hammingDistance(self, x: int, y: int) -> int:
+        cnt = 0
+        z = x ^ y
+        mask = 1
         for i in range(32):
-            if x_bin[i] != y_bin[i]:
-                c += 1
-        return c
+            if mask & z != 0:
+                cnt += 1
+            mask <<= 1
+        return cnt
     
     def numberof1_1(self, n):
         return bin(n & 0xffffffff).count('1')   # 与全1按位与为了保证负数的正常表示

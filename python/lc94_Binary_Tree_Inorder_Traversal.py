@@ -1,3 +1,5 @@
+from typing import Optional
+
 """
 2021.6.28
 idea: traverse a tree in inorder method
@@ -18,32 +20,42 @@ class TreeNode:
         self.left = left
         self.right = right
 
-class Solution:
-    def inorder(self, root, res):
-        if not root: return
-        self.inorder(root.left, res)
-        res.append(root.val)
-        self.inorder(root.right, res)
-
-    def inorderTraversal(self, root: TreeNode) -> List[int]:
-        res = []
-        self.inorder(root, res)
-        return res
-
-# stack
-class Solution2:
+class Stack:    
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
         stack = []
+        node = root
         # terminal condition
-        while root or stack:
+        while node or stack:
             # deal with left node and current node
-            if root:
-                stack.append(root)
-                root = root.left
+            if node:
+                stack.append(node)
+                node = node.left
             # deal with right one and get result value from stack
             else:
-                cur = stack.pop()
-                res.append(cur.val)
-                root = cur.right
+                node = stack.pop()
+                res.append(node.val)
+                node = node.right
         return res
+
+class DFS:
+    """
+    Time: O(n)
+    Space: O(n)
+    """
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        self.res = []
+        if not root:
+            return self.res
+        
+        self.in_order(root)
+        return self.res
+        
+    def in_order(self, node):
+        if not node:
+            return
+        
+        self.in_order(node.left)
+        self.res.append(node.val)
+        self.in_order(node.right)
+            

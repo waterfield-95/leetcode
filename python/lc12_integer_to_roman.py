@@ -5,7 +5,7 @@ idea: mapping roman symbols in 13 ways
 """
 
 class Solution:
-    def intToRoman(self, num: int) -> str:
+     def intToRoman(self, num: int) -> str:
         roman_dict = {
             1000: 'M',
             900: 'CM',
@@ -21,15 +21,18 @@ class Solution:
             4: 'IV',
             1: 'I',
         }
-        tmp = num
-        ans = ''
-        while tmp > 0:
-            for n, symbol in roman_dict.items():
-                if tmp >= n:
-                    ans += symbol
-                    tmp -= n
-                    break
-        return ans
+        
+        sorted_tuple = sorted(roman_dict.items(), key=lambda x: x[0], reverse=True)
+        
+        roman_digits = []
+        
+        for value, roman in sorted_tuple:
+            if num == 0: 
+                break
+            count, num = divmod(num, value)
+            roman_digits.append(count * roman)
+        
+        return "".join(roman_digits)
 
     def intToRoman_hardcode(self,num):
         """

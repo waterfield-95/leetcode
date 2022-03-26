@@ -5,6 +5,30 @@ idea: DP
   - divide to two part, respectively get the optimal result and get the better one from both
   - through scrolling method to get optimal solution, first and second pointer, the third solution is get the maximum between the first plus current number and the second one
 """
+from typing import List
+
+class Solution:
+    """
+    Circle degrades to two sequence sub-problems which are num[0:n-2] and num[1:n]
+    """
+    def rob(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        if len(nums) == 1:
+            return nums[0]
+        
+        n = len(nums)
+        res = max(self.helper(nums[:n-1]), self.helper(nums[1:]))
+        return res
+    
+    def helper(self, nums: List[int]) -> int:
+        cur = 0
+        prev = 0
+        for num in nums:
+            tmp = cur
+            cur = max(cur, prev + num)
+            prev = tmp 
+        return cur
 
 
 class Solution:

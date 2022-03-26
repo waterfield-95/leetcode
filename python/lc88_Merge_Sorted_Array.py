@@ -3,6 +3,27 @@ idea: reverse insertion
 - double pointer to point the last of element in the nums1 and nums2, the 3rd pointer to represent the element which is about to insert
 - compare and insert, in the end, add the rest of elements in nums2 to the head of nums1 (Merge elements in s2 to s1)
 """
+from typing import List
+
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        ptr = m + n - 1
+        i, j = m - 1, n - 1
+        while i >= 0 and j >= 0:
+            if nums2[j] >= nums1[i]:
+                nums1[ptr] = nums2[j]
+                j -= 1
+            else:
+                nums1[ptr] = nums1[i]
+                i -= 1
+            ptr -= 1
+        if j >= 0:
+            nums1[:ptr + 1] = nums2[:j + 1]
+# Time: O(m + n)
+# Space: O(1)
 
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
